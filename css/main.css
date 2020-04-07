@@ -1,0 +1,164 @@
+/***** BASE STYLES *****/
+
+body { 
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+/***** GRID *****/
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.body {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+}
+.third-width {
+    width: 30%;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header h1 {
+    padding-left: 10px;
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin-top: 30px;
+}
+
+nav ul li {
+    display:inline;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    color: #77a466;
+    text-decoration: none;
+}
+
+/***** TOP *****/
+
+img {
+    border-top: 4px solid #77a466;
+    border-bottom: 4px solid #77a466;
+}
+
+#top-section {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#top-section h2 {
+    color: #77a466;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#top-section p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/***** BOTTOM *****/
+
+#bottom-section h3 {
+    text-transform: uppercase;
+}
+
+.third-width {
+    padding-top: 15px;
+}
+
+.third-width h3 {
+    font-size: 12px;
+}
+
+#specials ul {
+    color: #77a466;
+    list-style: none;
+    padding: 0 0;
+}
+
+#specials li {
+    padding: 10px;
+}
+
+#specials h3 {
+    padding-left: 10px;
+}
+
+#reviews {
+    border-left: 2px solid #eee;
+    border-right: 2px solid #eee;
+    padding-bottom: 12px;
+    padding-right: 10px;
+    padding-left: 20px;
+
+}
+
+#reviews p {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+#contact h3 {
+    padding-left: 20px;
+}
+
+#contact p {
+    font-size: 16px;
+    line-height: 24px ;
+    padding-left: 20px;
+}
+
+
+/***** FOOTER *****/
+
+footer {
+    clear: left;
+	height: 50px;
+	border-top: 2px solid #eee;
+	margin: 0;
+	text-align: center;
+}
+
+footer h2 { 
+    font-size: 16px;
+    text-transform: uppercase;   
+}
+
+footer h2 span {
+    color: #77a466;
+    font-family:'Playball', cursive;
+    font-size: 25px;
+    text-transform: lowercase;
+}
